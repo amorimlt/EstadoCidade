@@ -1,0 +1,39 @@
+body {
+    background-color: #ffaebd;
+    color:black;
+    font-family: "Nunito";
+    font-weight: 700;
+}
+
+.cidades, .estados {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.conteudo {
+    display:grid;
+    height: 100vh;
+    place-content: center;
+    gap: 30px;
+}
+
+select {
+    background-color: #ffe0e6;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 300px;
+    max-width: 100%;
+    font-size: 1.2rem;
+    padding: 5px;
+    display: block;
+    align-self: center;
+    color:black;
+    border: #cc8b97 solid 2px
+}
+
+label {
+font-size: 1.6rem;
+}
