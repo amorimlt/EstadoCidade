@@ -2,39 +2,39 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
 
-    <title>Estado e cidade</title>
+  <title>Estado e cidade</title>
 
 </head>
 
 <body>
-  <div class="conteudo"> 
+  <div class="conteudo">
     <div class="estados">
       <label for="estado">Estado</label>
-      <select name="estados" id="escolha-estado">
+      <select name="estados" id="escolha-estado" data-js="opts">
         <option value="">Selecione um estado</option>
-        <option value="Paraná">Paraná ("PR")</option>
+        <option value="Parana">Paraná ("PR")</option>
         <option value="Santa Catarina">Santa Catarina ("SC")</option>
         <option value="Rio Grande do Sul">Rio Grande do Sul ("RS")</option>
       </select>
-  </div>
+    </div>
 
-  <div class="cidades">
-    <label for="cidade">Cidade</label>
-    <select name="" id="cidade">
-      <option value="">Selecione uma cidade</option>
-    </select>
-  </div>
+    <div class="cidades">
+      <label for="cidade">Cidade</label>
+      <select name="" id="cidade" data-js="showCidades">
+        <option value="">Selecione uma cidade</option>
+      </select>
+    </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
